@@ -33,17 +33,6 @@ const chains = [
     chain: "TCH",
   },
   {
-    name: "Ubiq",
-    infoURL: "https://ubiqsmart.com",
-    chainId: 8,
-    nativeCurrency: {
-      name: "Ubiq Ether",
-      symbol: "UBQ",
-      decimals: 18,
-    },
-    chain: "UBQ",
-  },
-  {
     name: "OP Mainnet",
     infoURL: "https://optimism.io",
     chainId: 10,
@@ -2080,17 +2069,6 @@ const chains = [
     chain: "ETH",
   },
   {
-    name: "ZERO Network",
-    infoURL: "https://docs.zero.network",
-    chainId: 543210,
-    nativeCurrency: {
-      name: "Ether",
-      symbol: "ETH",
-      decimals: 18,
-    },
-    chain: "ZERONetwork",
-  },
-  {
     name: "DustBoy IoT",
     infoURL: "https://www.cmuccdc.org/",
     chainId: 555888,
@@ -2498,6 +2476,17 @@ const chains = [
       decimals: 18,
     },
     chain: "NEAR",
+  },
+  {
+    name: "Crynux on Near",
+    infoURL: "https://crynux.io",
+    chainId: 1313161911,
+    nativeCurrency: {
+      name: "Crynux",
+      symbol: "CNX",
+      decimals: 18,
+    },
+    chain: "ETH",
   },
   {
     name: "RARI Chain Mainnet",
